@@ -12,6 +12,7 @@ const TodoList = ({ tasks, onClickDone, onClickStar }) => (
     {
       [].concat(tasks)
         .sort((a, b) => (a.star < b.star ? 1 : -1))
+        .sort((a, b) => (a.done > b.done ? 1 : -1))
         .map((task) => <Task key={task.id} {...task} onClickStar={onClickStar} onClickDone={onClickDone} starred={task.star} />)
     }
   </div>

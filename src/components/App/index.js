@@ -36,6 +36,12 @@ function App() {
       done: false,
       star: false,
     },
+    {
+      id: 12,
+      label: 'Faire les courses : Frigo Vide ! 🧊',
+      done: false,
+      star: true,
+    },
   ]);
 
   const addTask = () => {

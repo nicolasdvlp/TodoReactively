@@ -1,0 +1,41 @@
+#todo-list {
+  margin-top: 2em;
+}
+
+.todo {
+  padding: 1em;
+  margin: .5em;
+  word-break: break-all;
+}
+
+.todo--done {
+  opacity: .5;
+}
+
+.todo-text {
+  font-size: 1.2em;
+}
+
+.todo--done .todo-text {
+  text-decoration: line-through;
+}
+
+#todo-list .todo .checkbox{
+  font-size: 1.5em;
+}
+
+#todo-list .icon, .icons {
+  font-size: 1.2em;
+}
+
+.yell {
+  color: rgb(236, 198, 29);
+}
+
+.maxiw{
+  min-width: max-content;
+}
+
+#leftcol {
+  width: unset;
+}
